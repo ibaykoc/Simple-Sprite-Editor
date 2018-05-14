@@ -1,5 +1,0 @@
-#!/bin/bash
-
-g++ -c -o ../Build/test.o ../Scripts/test.cpp
-g++ ../Build/test.o -o ../Build/test-app -lsfml-graphics -lsfml-window -lsfml-system
-../Build/test-app
